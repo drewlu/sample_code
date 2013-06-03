@@ -1,0 +1,6 @@
+Import("env")
+
+env = env.Clone()
+
+env.Program("rhs_server", "rhs_server.cpp")
+env.Program("rhs_client", "rhs_client.cpp")

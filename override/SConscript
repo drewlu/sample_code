@@ -1,0 +1,12 @@
+Import("env")
+
+env = env.Clone()
+
+override_obj = env.Object(source=["override.cpp"])
+env.SharedLibrary(target='override', source = override_obj)
+
+raw_obj = env.Object(source=["raw.cpp"])
+env.SharedLibrary(target='raw', source = raw_obj)
+
+env.Append(LIBS=['raw', 'override'])
+env.Program("test", "test.cpp")

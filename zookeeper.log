@@ -1,0 +1,65 @@
+New Run Start: 20121102150641
+2012-11-02 15:06:41,926:14238(0x7fddab00d720):ZOO_INFO@log_env@658: Client environment:zookeeper.version=zookeeper C client 3.3.2
+2012-11-02 15:06:41,926:14238(0x7fddab00d720):ZOO_INFO@log_env@662: Client environment:host.name=localhost
+2012-11-02 15:06:41,926:14238(0x7fddab00d720):ZOO_INFO@log_env@669: Client environment:os.name=Linux
+2012-11-02 15:06:41,926:14238(0x7fddab00d720):ZOO_INFO@log_env@670: Client environment:os.arch=2.6.32.36xen
+2012-11-02 15:06:41,926:14238(0x7fddab00d720):ZOO_INFO@log_env@671: Client environment:os.version=#1 SMP Sat Sep 24 20:39:55 CST 2011
+2012-11-02 15:06:41,926:14238(0x7fddab00d720):ZOO_INFO@log_env@679: Client environment:user.name=root
+2012-11-02 15:06:41,926:14238(0x7fddab00d720):ZOO_INFO@log_env@687: Client environment:user.home=/root
+2012-11-02 15:06:41,927:14238(0x7fddab00d720):ZOO_INFO@log_env@699: Client environment:user.dir=/root/drewlu/joy
+2012-11-02 15:06:41,927:14238(0x7fddab00d720):ZOO_INFO@zookeeper_init@727: Initiating client connection, host=10.250.6.27:10240 sessionTimeout=15000 watcher=0x5fb862 sessionId=0 sessionPasswd=<null> context=0x7fdda40140f0 flags=0
+2012-11-02 15:06:41,927:14238(0x4366e940):ZOO_INFO@check_events@1585: initiated connection to server [10.250.6.27:10240]
+2012-11-02 15:06:41,928:14238(0x7fddab00d720):ZOO_INFO@zookeeper_close@2330: Freeing zookeeper resources for sessionId=0
+
+New Run Start: 20121102150641
+2012-11-02 15:06:41,976:14265(0x7ff6cbb27720):ZOO_INFO@log_env@658: Client environment:zookeeper.version=zookeeper C client 3.3.2
+2012-11-02 15:06:41,976:14265(0x7ff6cbb27720):ZOO_INFO@log_env@662: Client environment:host.name=localhost
+2012-11-02 15:06:41,976:14265(0x7ff6cbb27720):ZOO_INFO@log_env@669: Client environment:os.name=Linux
+2012-11-02 15:06:41,976:14265(0x7ff6cbb27720):ZOO_INFO@log_env@670: Client environment:os.arch=2.6.32.36xen
+2012-11-02 15:06:41,976:14265(0x7ff6cbb27720):ZOO_INFO@log_env@671: Client environment:os.version=#1 SMP Sat Sep 24 20:39:55 CST 2011
+2012-11-02 15:06:41,977:14265(0x7ff6cbb27720):ZOO_INFO@log_env@679: Client environment:user.name=root
+2012-11-02 15:06:41,977:14265(0x7ff6cbb27720):ZOO_INFO@log_env@687: Client environment:user.home=/root
+2012-11-02 15:06:41,977:14265(0x7ff6cbb27720):ZOO_INFO@log_env@699: Client environment:user.dir=/root/drewlu/joy
+2012-11-02 15:06:41,977:14265(0x7ff6cbb27720):ZOO_INFO@zookeeper_init@727: Initiating client connection, host=10.250.6.27:10240 sessionTimeout=15000 watcher=0x6f5e5a sessionId=0 sessionPasswd=<null> context=0x7ff6c40143c0 flags=0
+2012-11-02 15:06:41,977:14265(0x439ec940):ZOO_INFO@check_events@1585: initiated connection to server [10.250.6.27:10240]
+2012-11-02 15:06:41,979:14265(0x7ff6cbb27720):ZOO_INFO@zookeeper_close@2330: Freeing zookeeper resources for sessionId=0
+
+New Run Start: 20121213112315
+2012-12-13 11:23:15,862:17329(0x7f71678f4720):ZOO_INFO@log_env@658: Client environment:zookeeper.version=zookeeper C client 3.3.2
+2012-12-13 11:23:15,883:17329(0x7f71678f4720):ZOO_INFO@log_env@662: Client environment:host.name=houyi-vm02.dev.sd.aliyun.com
+2012-12-13 11:23:15,883:17329(0x7f71678f4720):ZOO_INFO@log_env@669: Client environment:os.name=Linux
+2012-12-13 11:23:15,883:17329(0x7f71678f4720):ZOO_INFO@log_env@670: Client environment:os.arch=2.6.32.36xen
+2012-12-13 11:23:15,883:17329(0x7f71678f4720):ZOO_INFO@log_env@671: Client environment:os.version=#1 SMP Sat Sep 24 20:39:55 CST 2011
+2012-12-13 11:23:15,883:17329(0x7f71678f4720):ZOO_INFO@log_env@679: Client environment:user.name=root
+2012-12-13 11:23:15,883:17329(0x7f71678f4720):ZOO_INFO@log_env@687: Client environment:user.home=/root
+2012-12-13 11:23:15,883:17329(0x7f71678f4720):ZOO_INFO@log_env@699: Client environment:user.dir=/root/drewlu/joy
+2012-12-13 11:23:15,883:17329(0x7f71678f4720):ZOO_INFO@zookeeper_init@727: Initiating client connection, host=10.250.6.27:10240 sessionTimeout=15000 watcher=0x5fb862 sessionId=0 sessionPasswd=<null> context=0xc53580 flags=0
+2012-12-13 11:23:15,884:17329(0x446e2940):ZOO_INFO@check_events@1585: initiated connection to server [10.250.6.27:10240]
+2012-12-13 11:23:15,884:17329(0x7f71678f4720):ZOO_INFO@zookeeper_close@2330: Freeing zookeeper resources for sessionId=0
+
+New Run Start: 20121213112315
+2012-12-13 11:23:15,930:17350(0x7f1115f06720):ZOO_INFO@log_env@658: Client environment:zookeeper.version=zookeeper C client 3.3.2
+2012-12-13 11:23:15,930:17350(0x7f1115f06720):ZOO_INFO@log_env@662: Client environment:host.name=houyi-vm02.dev.sd.aliyun.com
+2012-12-13 11:23:15,930:17350(0x7f1115f06720):ZOO_INFO@log_env@669: Client environment:os.name=Linux
+2012-12-13 11:23:15,930:17350(0x7f1115f06720):ZOO_INFO@log_env@670: Client environment:os.arch=2.6.32.36xen
+2012-12-13 11:23:15,930:17350(0x7f1115f06720):ZOO_INFO@log_env@671: Client environment:os.version=#1 SMP Sat Sep 24 20:39:55 CST 2011
+2012-12-13 11:23:15,930:17350(0x7f1115f06720):ZOO_INFO@log_env@679: Client environment:user.name=root
+2012-12-13 11:23:15,931:17350(0x7f1115f06720):ZOO_INFO@log_env@687: Client environment:user.home=/root
+2012-12-13 11:23:15,931:17350(0x7f1115f06720):ZOO_INFO@log_env@699: Client environment:user.dir=/root/drewlu/joy
+2012-12-13 11:23:15,931:17350(0x7f1115f06720):ZOO_INFO@zookeeper_init@727: Initiating client connection, host=10.250.6.27:10240 sessionTimeout=15000 watcher=0x6f5e5a sessionId=0 sessionPasswd=<null> context=0xc50ef0 flags=0
+2012-12-13 11:23:15,931:17350(0x43857940):ZOO_INFO@check_events@1585: initiated connection to server [10.250.6.27:10240]
+2012-12-13 11:23:15,933:17350(0x7f1115f06720):ZOO_INFO@zookeeper_close@2330: Freeing zookeeper resources for sessionId=0
+
+New Run Start: 20121213113005
+2012-12-13 11:30:05,001:30372(0x7f1fbf045720):ZOO_INFO@log_env@658: Client environment:zookeeper.version=zookeeper C client 3.3.2
+2012-12-13 11:30:05,001:30372(0x7f1fbf045720):ZOO_INFO@log_env@662: Client environment:host.name=houyi-vm02.dev.sd.aliyun.com
+2012-12-13 11:30:05,001:30372(0x7f1fbf045720):ZOO_INFO@log_env@669: Client environment:os.name=Linux
+2012-12-13 11:30:05,001:30372(0x7f1fbf045720):ZOO_INFO@log_env@670: Client environment:os.arch=2.6.32.36xen
+2012-12-13 11:30:05,001:30372(0x7f1fbf045720):ZOO_INFO@log_env@671: Client environment:os.version=#1 SMP Sat Sep 24 20:39:55 CST 2011
+2012-12-13 11:30:05,001:30372(0x7f1fbf045720):ZOO_INFO@log_env@679: Client environment:user.name=root
+2012-12-13 11:30:05,001:30372(0x7f1fbf045720):ZOO_INFO@log_env@687: Client environment:user.home=/root
+2012-12-13 11:30:05,001:30372(0x7f1fbf045720):ZOO_INFO@log_env@699: Client environment:user.dir=/root/drewlu/joy
+2012-12-13 11:30:05,001:30372(0x7f1fbf045720):ZOO_INFO@zookeeper_init@727: Initiating client connection, host=localcluster:10240 sessionTimeout=15000 watcher=0x6f5e5a sessionId=0 sessionPasswd=<null> context=0x7f1fb8014da0 flags=0
+2012-12-13 11:30:05,002:30372(0x43736940):ZOO_INFO@check_events@1585: initiated connection to server [10.250.6.27:10240]
+2012-12-13 11:30:05,003:30372(0x7f1fbf045720):ZOO_INFO@zookeeper_close@2330: Freeing zookeeper resources for sessionId=0
+

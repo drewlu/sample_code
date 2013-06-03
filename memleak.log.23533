@@ -1,0 +1,93 @@
+==23533== Memcheck, a memory error detector.
+==23533== Copyright (C) 2002-2006, and GNU GPL'd, by Julian Seward et al.
+==23533== Using LibVEX rev 1658, a library for dynamic binary translation.
+==23533== Copyright (C) 2004-2006, and GNU GPL'd, by OpenWorks LLP.
+==23533== Using valgrind-3.2.1, a dynamic binary instrumentation framework.
+==23533== Copyright (C) 2000-2006, and GNU GPL'd, by Julian Seward et al.
+==23533== 
+==23533== My PID = 23533, parent PID = 23584.  Prog and args are:
+==23533==    ./output/delete_void
+==23533== 
+--23533-- 
+--23533-- Command line
+--23533--    ./output/delete_void
+--23533-- Startup, with flags:
+--23533--    -v
+--23533--    --tool=memcheck
+--23533--    --leak-check=full
+--23533--    --show-reachable=yes
+--23533--    --track-fds=yes
+--23533--    --log-file=memleak.log
+--23533-- Contents of /proc/version:
+--23533--   Linux version 2.6.32.36xen (root@houyi-chunk1.dev.sd.aliyun.com) (gcc version 4.1.2 20080704 (Red Hat 4.1.2-46)) #1 SMP Sat Sep 24 20:39:55 CST 2011
+--23533-- Arch and hwcaps: AMD64, amd64-sse2
+--23533-- Valgrind library directory: /usr/lib64/valgrind
+--23533-- Reading syms from /root/drewlu/joy/output/delete_void (0x400000)
+--23533-- Reading syms from /usr/lib64/valgrind/amd64-linux/memcheck (0x38000000)
+--23533--    object doesn't have a dynamic symbol table
+--23533-- Reading syms from /lib64/ld-2.5.so (0x330E200000)
+--23533-- Reading suppressions file: /usr/lib64/valgrind/default.supp
+--23533-- Reading syms from /usr/lib64/valgrind/amd64-linux/vgpreload_core.so (0x4802000)
+--23533-- Reading syms from /usr/lib64/valgrind/amd64-linux/vgpreload_memcheck.so (0x4A03000)
+--23533-- REDIR: 0x330E214400 (index) redirected to 0x4A06550 (index)
+--23533-- REDIR: 0x330E2145B0 (strcmp) redirected to 0x4A067D0 (strcmp)
+--23533-- REDIR: 0x330E2145E0 (strlen) redirected to 0x4A06700 (strlen)
+--23533-- Reading syms from /usr/lib64/libstdc++.so.6.0.8 (0x36B0800000)
+--23533--    object doesn't have a symbol table
+--23533-- Reading syms from /lib64/libm-2.5.so (0x330F200000)
+--23533-- Reading syms from /lib64/libgcc_s-4.1.2-20080825.so.1 (0x36B0400000)
+--23533--    object doesn't have a symbol table
+--23533-- Reading syms from /lib64/libc-2.5.so (0x330E600000)
+--23533-- REDIR: 0x330E679AB0 (rindex) redirected to 0x4A06400 (rindex)
+--23533-- REDIR: 0x330E67A970 (memset) redirected to 0x4A06920 (memset)
+--23533-- REDIR: 0x330E6796C0 (strlen) redirected to 0x4A066C0 (strlen)
+--23533-- REDIR: 0x330E674B80 (malloc) redirected to 0x4A05787 (malloc)
+--23533-- REDIR: 0x330E6726F0 (free) redirected to 0x4A05397 (free)
+==23533== 
+==23533== FILE DESCRIPTORS: 4 open at exit.
+==23533== Open file descriptor 3: /root/drewlu/joy/memleak.log.23533
+==23533==    <inherited from parent>
+==23533== 
+==23533== Open file descriptor 2: /dev/pts/23
+==23533==    <inherited from parent>
+==23533== 
+==23533== Open file descriptor 1: /dev/pts/23
+==23533==    <inherited from parent>
+==23533== 
+==23533== Open file descriptor 0: /dev/pts/23
+==23533==    <inherited from parent>
+==23533== 
+==23533== 
+==23533== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 5 from 1)
+--23533-- 
+--23533-- supp:    5 Fedora-Core-6-hack3-ld25
+==23533== malloc/free: in use at exit: 0 bytes in 0 blocks.
+==23533== malloc/free: 1 allocs, 1 frees, 128 bytes allocated.
+==23533== 
+==23533== All heap blocks were freed -- no leaks are possible.
+--23533--  memcheck: sanity checks: 1 cheap, 1 expensive
+--23533--  memcheck: auxmaps: 179 auxmap entries (11456k, 11M) in use
+--23533--  memcheck: auxmaps: 470808 searches, 901570 comparisons
+--23533--  memcheck: SMs: n_issued      = 18 (288k, 0M)
+--23533--  memcheck: SMs: n_deissued    = 0 (0k, 0M)
+--23533--  memcheck: SMs: max_noaccess  = 524287 (8388592k, 8191M)
+--23533--  memcheck: SMs: max_undefined = 0 (0k, 0M)
+--23533--  memcheck: SMs: max_defined   = 235 (3760k, 3M)
+--23533--  memcheck: SMs: max_non_DSM   = 18 (288k, 0M)
+--23533--  memcheck: max sec V bit nodes:    0 (0k, 0M)
+--23533--  memcheck: set_sec_vbits8 calls: 0 (new: 0, updates: 0)
+--23533--  memcheck: max shadow mem size:   4432k, 4M
+--23533-- translate:            fast SP updates identified: 1,666 ( 88.9%)
+--23533-- translate:   generic_known SP updates identified: 134 (  7.1%)
+--23533-- translate: generic_unknown SP updates identified: 74 (  3.9%)
+--23533--     tt/tc: 4,295 tt lookups requiring 4,349 probes
+--23533--     tt/tc: 4,295 fast-cache updates, 5 flushes
+--23533--  transtab: new        2,034 (50,805 -> 914,383; ratio 179:10) [0 scs]
+--23533--  transtab: dumped     0 (0 -> ??)
+--23533--  transtab: discarded  15 (319 -> ??)
+--23533-- scheduler: 199,752 jumps (bb entries).
+--23533-- scheduler: 1/2,354 major/minor sched events.
+--23533--    sanity: 2 cheap, 1 expensive checks.
+--23533--    exectx: 30,011 lists, 10 contexts (avg 0 per list)
+--23533--    exectx: 14 searches, 4 full compares (285 per 1000)
+--23533--    exectx: 0 cmp2, 10 cmp4, 0 cmpAll
