@@ -24,15 +24,41 @@
 #include <iostream>
 using namespace std;
 
+struct ptr {
+    ptr(const void *val):p(val){}
+    const void *p;
+};
+typedef std::tr1::shared_ptr<ptr> CPtr;
+
 class Cat {
 private:
     std::string name;
 
 public:
-    Cat(const std::string& n) {name = n;}
+    CPtr p;
+
+    Cat(const std::string& n) {name = n; p.reset(new ptr(NULL));}
+    Cat(const std::string& n, const void *val):p(new ptr(val)) {name = n;}
 };
 
 typedef std::tr1::shared_ptr<Cat> CatPtr;
+
+int ptr_internal()
+{
+    const char *miao = "mao";
+    const char *go = "go";
+    CatPtr a(new Cat("cat", miao));
+    CatPtr b = a;
+    cout << "a getPtr:" << a->p << endl;
+    cout << "b getPtr:" << b->p << endl;
+
+    CPtr k(new ptr(go));
+    b->p = k;
+    //b->setPtr(go);
+
+    cout << "a getPtr:" << a->p << endl;
+    cout << "b getPtr:" << b->p << endl;
+}
 
 int main() {
     CatPtr catPtr(new Cat("mimi"));
@@ -59,4 +85,6 @@ int main() {
         cout << "catPtr1 is dead" << endl;
     else
         cout << "catPtr1 is still alive" << endl;
+
+    ptr_internal();
 }
